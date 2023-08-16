@@ -2,20 +2,32 @@
     display: flex;
     margin: 10px;
     border-radius: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid #000000;
     border-top-width: 2px;
     border-color: rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     margin: 10px;
     transition: background-color 0.3s ease, border-left-color 0.3s ease;
+    background-color: transparent;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
   }
   
   .icon:hover {
-    background-color: rgba(0, 0, 0, 0.453);
+    background-color: rgba(255, 255, 255, 0.675);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+
   }

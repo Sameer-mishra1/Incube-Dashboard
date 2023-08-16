@@ -14,17 +14,21 @@ body {
     justify-content: space-around;
     position: relative;
     float: left;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6);
 }
 
 .sidebar__expanded {
     background-color: #f5fafa;
-    width: 5vw;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 10vw;
+    justify-content: space-around;
+    position: relative;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6);
 }
 
 .sidebar-icon {
@@ -32,9 +36,6 @@ body {
     margin: 10px;
 }
 
-.sidebar-icon__active {
-    
-}
 
 .sidebar-logo {
     margin-top: 20px;

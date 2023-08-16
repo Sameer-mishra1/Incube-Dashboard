@@ -1,4 +1,5 @@
-import styles from "./Sidebar.module.css";import { useState } from "react";
+import styles from "./Sidebar.module.css";
+import { useState } from "react";
 import SidebarIcons from "../SidebarIcons/SidebarIcons";
 import iconsArray from "../iconsArray";
 
