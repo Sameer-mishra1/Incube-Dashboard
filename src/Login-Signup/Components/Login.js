@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
-import LoginSVG from '../../assets/login.svg'
-import googleIcon from '../../assets/icons8-google.svg'
-import linkedinIcon from '../../assets//icons8-linkedin.svg'
+import { Link } from "react-router-dom";
+import LoginSVG from '../../assets/Illustrations/login.svg'
+import googleIcon from '../../assets/Icons/icons8-google.svg'
+import linkedinIcon from '../../assets/Icons/icons8-linkedin.svg'
 import styles from './Login.module.css'
 
 const Login = () => {
@@ -24,11 +23,11 @@ const Login = () => {
         <p className={styles["container-login__signup"]}>Sign up with:</p>
       <div className={styles["container-icon"]}>
       <Link to='/dashboard'> 
-        <img className={styles["contianer-login__icon"]} src={googleIcon} />
-        <img className={styles["contianer-login__icon"]} src={linkedinIcon} />
+        <img className={styles["contianer-login__icon"]} src={googleIcon} alt="Google Icon" />
+        <img className={styles["contianer-login__icon"]} src={linkedinIcon} alt="LinkedIn Icon" />
       </Link>
       </div>
-      <p className={styles["container-login__warning"]}>By signing-up you agree to our Term & conditions and Privacy Policy.</p>
+      <p className={styles["container-login__warning"]}>By signing-up you agree to our <a href='/terms-and-conditions' target="_blank">Term & conditions</a> and <a href='/privacy-policy' target="_blank">Privacy Policy</a>.</p>
       </div>
       </div>
     </div>

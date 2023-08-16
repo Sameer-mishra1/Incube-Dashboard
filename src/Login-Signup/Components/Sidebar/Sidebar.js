@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "./Sidebar.module.css";
-import googleIcon from "../../../assets/icons8-google.svg";
-import dashboardIcon from "../../../assets/dashboard-icon.svg";
-import { useState } from "react";
+import styles from "./Sidebar.module.css";import { useState } from "react";
+import SidebarIcons from "../SidebarIcons/SidebarIcons";
+import iconsArray from "../iconsArray";
 
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -11,6 +9,13 @@ const Sidebar = () => {
     setCollapsed(!collapsed);
     console.log("collapsing...");
   };
+
+  const icons = iconsArray.map((icon) => {
+    if (icon.route === '/collapse') {
+      icon.onClick = toggleCollapse;
+    }
+    return icon;
+  });
 
   return (
     <>
@@ -26,45 +31,7 @@ const Sidebar = () => {
         >
           INCUBE
         </p>
-        <Link className={styles["sidebar-icon"]} to="/dashboard">
-          <img className={styles['sidebar-icon__active']} src={dashboardIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/scout">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/events">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/cohort-applications">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/live-deals">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/team">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/portfolio">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/notifications">
-          <img src={googleIcon} />
-        </Link>
-        <Link className={styles["sidebar-icon"]} to="/mail-us">
-          <img
-            src={googleIcon}
-            onClick={() =>
-              (window.location.href = "mailto:support@incube.club")
-            }
-          />
-        </Link>
-        {/* Collapse - Expand Button */}
-        <button className={styles["sidebar-icon"]} onClick={toggleCollapse}>
-          <img src={googleIcon} />
-        </button>
-        <Link className={styles["sidebar-icon"]} to="/user-Profile">
-          <img src={googleIcon} />
-        </Link>
+        <SidebarIcons icons={icons} />
       </div>
     </>
   );

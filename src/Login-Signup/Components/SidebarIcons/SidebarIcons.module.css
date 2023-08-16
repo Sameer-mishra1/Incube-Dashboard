@@ -1,0 +1,21 @@
+.activeIcon {
+    display: flex;
+    margin: 10px;
+    border-radius: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+    border-top-width: 2px;
+    border-color: rgba(0, 0, 0, 0.16);
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+  }
+  
+  .icon:hover {
+    background-color: rgba(0, 0, 0, 0.453);
+  }

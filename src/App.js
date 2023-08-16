@@ -25,6 +25,7 @@ const App = () => {
         <Route path="/team" Component={Team}/>
         <Route path="/portfolio" Component={Portfolio}/>
         <Route path="/notifications" Component={Notifications}/>
+        <Route path="/collapse"/>
         <Route path="/user-Profile" Component={Profile}/>
       </Routes>
     </BrowserRouter>
