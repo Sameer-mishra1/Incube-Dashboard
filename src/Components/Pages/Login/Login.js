@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import LoginSVG from '../../assets/Illustrations/login.svg'
-import googleIcon from '../../assets/Icons/icons8-google.svg'
-import linkedinIcon from '../../assets/Icons/icons8-linkedin.svg'
+import LoginSVG from '../../../assets/Illustrations/login.svg'
+import googleIcon from '../../../assets/Icons/icons8-google.svg'
+import linkedinIcon from '../../../assets/Icons/icons8-linkedin.svg'
 import styles from './Login.module.css'
 
 const Login = () => {

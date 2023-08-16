@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./Login-Signup/Components/Login";
-import Dashboard from "./Login-Signup/Components/Dashboard/Dashboard";
-import Scout from "./Login-Signup/Components/Pages/Scout/Scout";
-import Events from "./Login-Signup/Components/Pages/Events/Events";
-import CohortApplications from "./Login-Signup/Components/Pages/CohortApplications/CohortApplications";
-import LiveDeals from "./Login-Signup/Components/Pages/LiveDeals/LiveDeals";
-import Team from "./Login-Signup/Components/Pages/Team/Team";
-import Notifications from "./Login-Signup/Components/Pages/Notifications/Notifications";
-import Portfolio from "./Login-Signup/Components/Pages/Portfolio/Portfolio";
-import Profile from "./Login-Signup/Components/Pages/Profile/Profile";
+import Login from "../src/Components/Pages/Login/Login";
+import Dashboard from '../src/Components/Pages/Dashboard/Dashboard'
+import Scout from "../src/Components/Pages/Scout/Scout";
+import Events from "../src/Components/Pages/Events/Events";
+import CohortApplications from "../src/Components/Pages/CohortApplications/CohortApplications";
+import LiveDeals from "../src/Components/Pages/LiveDeals/LiveDeals";
+import Team from "../src/Components/Pages/Team/Team";
+import Notifications from "../src/Components/Pages/Notifications/Notifications";
+import Portfolio from "../src/Components/Pages/Portfolio/Portfolio";
+import Profile from "../src/Components/Pages/Profile/Profile";
 
 
 const App = () => {

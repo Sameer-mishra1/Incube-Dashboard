@@ -1,7 +1,7 @@
 import styles from "./Sidebar.module.css";
 import { useState } from "react";
-import SidebarIcons from "../SidebarIcons/SidebarIcons";
-import iconsArray from "../iconsArray";
+import SidebarIcons from "./SidebarIcons/SidebarIcons";
+import iconsArray from "./SidebarIcons/iconsArray";
 
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(true);

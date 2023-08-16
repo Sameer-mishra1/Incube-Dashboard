@@ -1,4 +1,3 @@
-import styles from "./Scout.module.css";
 import Sidebar from "../../Sidebar/Sidebar";
 
 const Scout = () => {
