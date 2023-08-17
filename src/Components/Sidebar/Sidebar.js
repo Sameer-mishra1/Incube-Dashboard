@@ -4,16 +4,24 @@ import SidebarIcons from "./SidebarIcons/SidebarIcons";
 import iconsArray from "./SidebarIcons/iconsArray";
 
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(true);
+  const [collapsed, setCollapsed] = useState(false);
 
   const toggleCollapse = () => {
     setCollapsed(!collapsed);
-    console.log("collapsing...");
   };
+
+  const handleIconClick = () => {
+    if (collapsed) {
+      setCollapsed(false);
+      console.log('expanding...');
+    }
+  }
 
   const icons = iconsArray.map((icon) => {
     if (icon.route === '/collapse') {
       icon.onClick = toggleCollapse;
+    } else {
+      icon.onClick = handleIconClick;
     }
     return icon;
   });
