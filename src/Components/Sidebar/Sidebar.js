@@ -4,7 +4,7 @@ import SidebarIcons from "./SidebarIcons/SidebarIcons";
 import iconsArray from "./SidebarIcons/iconsArray";
 
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
   const toggleCollapse = () => {
     setCollapsed(!collapsed);
