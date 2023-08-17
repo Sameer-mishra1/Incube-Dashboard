@@ -15,6 +15,7 @@ body {
     position: relative;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6);
+    transition: width 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sidebar__expanded {
@@ -29,6 +30,7 @@ body {
     position: relative;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6);
+    transition: width 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sidebar-icon {

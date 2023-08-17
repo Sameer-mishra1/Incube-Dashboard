@@ -32,7 +32,7 @@ const Sidebar = () => {
         >
           INCUBE
         </p>
-        <SidebarIcons icons={icons} />
+        <SidebarIcons icons={icons} onCollapseToggle={toggleCollapse}/>
       </div>
     </>
   );
