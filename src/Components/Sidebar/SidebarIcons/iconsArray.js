@@ -7,7 +7,6 @@ import teamIcon from '../../../assets/Icons/Sidebar-Icons/team-icon.svg';
 import portfolioIcon from '../../../assets/Icons/Sidebar-Icons/portfolio-icon.svg';
 import notificationsIcon from '../../../assets/Icons/Sidebar-Icons/notifications-icon.svg';
 import mailIcon from '../../../assets/Icons/Sidebar-Icons/mail-icon.svg';
-import collapseIcon from '../../../assets/Icons/Sidebar-Icons/collapse-icon.svg';
 import profileIcon from '../../../assets/Icons/Sidebar-Icons/profile-icon.svg';
 
 const iconsArray = [
@@ -64,12 +63,6 @@ const iconsArray = [
     alt: 'Mail Icon',
     route: '/mail-us',
     title: 'Mail'
-  },
-  {
-    iconSrc: collapseIcon,
-    alt: 'Collapse Icon',
-    route: '/collapse',
-    title: 'Collapse'
   },
   {
     iconSrc: profileIcon,

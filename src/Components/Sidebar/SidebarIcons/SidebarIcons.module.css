@@ -1,33 +1,69 @@
-.activeIcon {
-    display: flex;
-    margin: 10px;
-    border-radius: 100%;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid #000000;
-    border-top-width: 2px;
-    border-color: rgba(0, 0, 0, 0.16);
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .icon {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
     transition: background-color 0.3s ease, border-left-color 0.3s ease;
     background-color: transparent;
     border-radius: 100%;
     width: 50px;
     height: 50px;
     justify-content: center;
+    text-decoration: none;
   }
-  
-  .icon:hover {
-    background-color: rgba(255, 255, 255, 0.675);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
 
+  .icon img {
+    width: 60%;
+  }
+
+  .iconTitleActive {
+    font-size: 12px;
+    font-family: 'Fira-Sans';
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    margin-top: 5px;
+  }
+
+  .iconTitle {
+    font-size: 10px;
+    font-family: 'Fira-Sans';
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    margin-top: 5px;
+  }
+
+  .iconContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .iconContainerActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.16); /* Apply your circular background color here */
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent; /* Set transparent border for left, right, and bottom */
+    border-top: 2px solid #000000;
+    border-color: rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .iconContainer:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.16); /* Apply your circular background color here */
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent; /* Set transparent border for left, right, and bottom */
+    border-top: 2px solid #000000;
+    border-color: rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
   }
