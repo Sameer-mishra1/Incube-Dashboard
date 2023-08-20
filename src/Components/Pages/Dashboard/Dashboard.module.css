@@ -1,7 +1,16 @@
 body {
     color: #fff;
+    background-color: #fff;
 }
 
 /* img {
     width: 2rem;
 } */
+
+.dashboardContainer {
+    display: flex;
+  }
+
+  .mainContent {
+    flex: 1; /* Allow the main content to expand and fill the available space */
+  }

@@ -1,0 +1,11 @@
+.button {
+    align-items: center;
+    color: #17224d;
+    width: 8rem;
+    padding: 0.5rem 0.5rem;
+    max-height: 50%;
+    border-radius: 12px;
+    border: 1px solid #007fff;
+    background: transparent;
+    margin: 1rem;
+}

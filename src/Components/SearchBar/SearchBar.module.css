@@ -1,0 +1,17 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #007fff;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .searchInput {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: url('../../assets//Icons//icons8-search.svg') no-repeat right center; /* Add background image */
+    background-size: 20px 20px; /* Adjust size of the background image */
+    padding-right: 30px; /* Leave space for the icon */
+  }
