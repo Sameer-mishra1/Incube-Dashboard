@@ -1,11 +1,9 @@
-import Sidebar from "../../Sidebar/Sidebar";
+import MainLayout from "../../MainLayout/MainLayout";
 
 
 const Portfolio = () => {
     return (
-        <>
-            <Sidebar />
-        </>
+        <MainLayout />
     )
 }
 

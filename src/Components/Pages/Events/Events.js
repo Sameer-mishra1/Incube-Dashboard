@@ -1,9 +1,9 @@
-import Sidebar from '../../Sidebar/Sidebar';
+import MainLayout from '../../MainLayout/MainLayout';
 
 const Events = () => {
-    return <>
-        <Sidebar />
-    </>
+    return (
+        <MainLayout />
+    )
 }
 
 export default Events;

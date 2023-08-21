@@ -1,11 +1,8 @@
-import Sidebar from "../../Sidebar/Sidebar";
-
+import MainLayout from "../../MainLayout/MainLayout";
 
 const Team = () => {
     return (
-        <>
-            <Sidebar />
-        </>
+        <MainLayout />
     )
 }
 

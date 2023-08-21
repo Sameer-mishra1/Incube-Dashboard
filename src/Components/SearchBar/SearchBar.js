@@ -1,5 +1,4 @@
 import styles from "./SearchBar.module.css";
-import searchIcon from '../../assets/Icons/icons8-search.svg'
 
 const SearchBar = () => {
   return (
