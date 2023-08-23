@@ -1,14 +1,13 @@
-import Header from "../../Header/Header";
-import Sidebar from "../../Sidebar/Sidebar";
 import styles from "./Notifications.module.css";
-
+import Sidebar from "../../Sidebar/Sidebar";
+import Header from "../../Header/Header";
 const Notifications = () => {
   return (
     <div className={styles.dashboardContainer}>
       <Sidebar />
-      <Header />
       <div className={styles.mainContent}>
-        {/* Content as in whatever will be in Dashboard */}
+        <Header />
+        <h2>hello</h2>
       </div>
     </div>
   );

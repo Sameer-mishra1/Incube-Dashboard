@@ -10,7 +10,6 @@ import Notifications from "../src/Components/Pages/Notifications/Notifications";
 import Portfolio from "../src/Components/Pages/Portfolio/Portfolio";
 import Profile from "../src/Components/Pages/Profile/Profile";
 
-
 const App = () => {
   
   return (
