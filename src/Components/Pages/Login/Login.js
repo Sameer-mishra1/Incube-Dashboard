@@ -6,7 +6,7 @@ import styles from './Login.module.css'
 
 const Login = () => {
   return (
-    <div>
+    <div className={styles.loginContainer}>
       <div className={styles.container}>
       <div className={styles['container-svg']}>
       <img src={LoginSVG} alt="Login SVG Icon" />
