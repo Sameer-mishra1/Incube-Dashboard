@@ -4,10 +4,10 @@ import styles from "./MainLayout.module.css";
 
 const MainLayout = (props) => {
   return (
-    <div className={styles.mainContainer}>
+    <div className={styles.contentContainer}>
       <Sidebar />
-      <Header />
       <div className={styles.mainContent}>
+      <Header />
         {props.children}
       </div>
     </div>
