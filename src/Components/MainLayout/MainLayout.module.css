@@ -5,4 +5,5 @@
   .mainContent {
     flex: 1; /* Allow the main content to expand and fill the available space */
     width: 100%;
+    margin-left: 5vw;
   }
